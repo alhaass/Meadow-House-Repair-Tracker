@@ -1,0 +1,31 @@
+----- Tests -----
+--- Test 1. ---
+- Do -
+Make a job with description as "Mow lawn", priority as normal and reporter as Alex Mickles
+
+- Pass criteria -
+Job should be accepted with no problems
+
+- Status & description -
+Completed & test passed - job was accepted. No error nor problems occurred
+
+--- Test 2. ---
+- Do -
+Go to a job and try to make a progress note that's empty, and then filled with only spaces
+
+- Pass criteria -
+An error should be displayed to the user detailing the problem
+
+- Status & description -
+Completed & test passed - the job had the ID MH-0009. An error was displayed reading: Progress note not saved. Write a note first; it cannot be empty or only spaces. The job is unchanged.
+
+--- Test 3. ---
+- Do -
+Mark a job as completed with a note
+
+- Pass criteria -
+Job should be marked as completed with no problems
+
+- Status & description -
+Completed & test passed - the job had the ID MH-0005. No error nor problems occurred
+
